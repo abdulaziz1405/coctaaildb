@@ -1,0 +1,98 @@
+.home_search {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 20px;
+}
+.home_search form {
+    display: flex;
+}
+.home_search input {
+    height: 35px;
+    width: 350px;
+    border-radius: 5px 0 0 5px;
+    border-left: none;
+    font-size: 22px;
+    outline: none;  
+    border: none;
+}
+.home_search button {
+    height: 35px;
+    width: 50px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    border: none;
+}
+.drink_item{
+    padding: 30px;
+
+}
+.drink_item h3 {
+    color: #fff;
+    padding: 10px 0 60px 0;
+    text-align: center;
+    font-size: 22px;
+}
+.drink_item_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.popular {
+    color: #fff;
+    padding: 30px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff; 
+}
+.popular h3 {
+    text-align: center;
+}
+.popular_ingredients{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* Random Ingredients */
+.random_ingredients_title{
+    margin: 20px 0;
+    padding: 30px 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.random_ingredients_title h3 {
+    color: #fff;
+    text-align: center;
+}
+.random_ingredient{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.random_ingredients_title h3:hover{
+    color: orange;
+}
+/* Random Coctails */
+.random_coctails {
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid #fff;
+}
+.random_content h3 {
+    text-align: center;
+    color: #fff;
+    margin: 30px 0 20px 0;
+}
+.random_images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.alfavit h3 {
+    text-align: center;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 20px;
+}
